@@ -1,0 +1,32 @@
+{
+  "name": "Med-Plants",
+  "version": "1.0.0",
+  "description": "Hackaton Project Identification of medical plants through ML Model.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "frontend": "npm start --prefix ./frontend",
+    "dev": "concurrently \"npm run start\" \"npm run frontend\""
+  },
+  "author": "TEAM-43",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mantine/core": "^6.0.20",
+    "@tensorflow/tfjs": "^4.11.0",
+    "bootstrap": "^5.3.2",
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "react-dropzone": "^14.2.3"
+  }
+}
